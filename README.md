@@ -58,7 +58,7 @@ zumo-obstacle-robot/
 └── README.md
 ```
 
-> 🎥 Demo videos (`Contrôle Bluetooth.mp4`, `éviteur d'obstacle.mp4`) exist from testing but aren't included here — GitHub isn't ideal for video hosting. Consider uploading them to YouTube (unlisted) and linking them in this README instead.
+
 
 ## Measured results
 
