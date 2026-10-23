@@ -22,6 +22,10 @@ Two independent Arduino sketches implement the two phases of the project:
 
 The Zumo Shield's onboard DRV8835 H-bridge was chosen specifically for its mechanical compatibility with the Zumo chassis (the Mega form factor isn't compatible), and its headroom easily covers this project's needs (1 ultrasonic sensor, 1 Bluetooth module, 2 motors) within the Uno's 32 KB flash / 2 KB SRAM.
 
+
+<img width="897" height="584" alt="image" src="https://github.com/user-attachments/assets/b2369472-c3d9-438a-9fa2-8119791872af" />
+
+
 ## Mode 1 — Reactive obstacle avoidance (`code1_eviteur_obstacles`)
 
 Simple reactive perception-decision-action loop, chosen over a deliberative/planning approach due to the Arduino Uno's memory and compute constraints:
